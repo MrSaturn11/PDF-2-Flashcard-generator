@@ -1,3 +1,5 @@
+REMEMBER TO PUT YOUR API KEY IN THE "key" VARIABLE
+
 REQUIRED PACKAGES (they should be in the virtual environment)
 ------------------------------------------------------------
 pdf2image
@@ -39,3 +41,4 @@ Write all extracted text to file.txt
 Send the text to Gemini
 
 Print flashcards to your terminal
+
