@@ -4,7 +4,7 @@ from pdf2image import convert_from_path
 import pytesseract
 from PIL import Image
 from google import genai
-key = "AIzaSyAm3pu3I1Yg8Ihu61k6zpPm5CheTYpveyQ"
+key = "your key here"
 #pointing to where tesseract.exe is installed on my comptuer
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 pdf_name = input('what is your pdf file name?:')
@@ -44,3 +44,4 @@ content to process
 """)
 
 print(response.text)
+
